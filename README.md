@@ -1,5 +1,5 @@
 # DeepTradeAI
-# 📈 Deep Reinforcement Learning for Stock Trading  
+## 📈 Deep Reinforcement Learning for Stock Trading  
 
 
 ## Overview
@@ -112,7 +112,7 @@ Trading decisions (Buy/Sell points on chart)
 - Continuous improvement and testing are essential for refining these models.
 
 ## Research Paper
-This project was inspired by the research paper [Deep Reinforcement Learning for AutomatedStock Trading: An Ensemble Strategy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3690996). The paper provides a comprehensive overview of using DRL in financial markets and guided the development of the agents and environment in this project.
+This project was inspired by the research paper [Deep Reinforcement Learning for AutomatedStock Trading: An Ensemble Strategy ](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3690996). The paper provides a comprehensive overview of using DRL in financial markets and guided the development of the agents and environment in this project.
 
 
 
@@ -121,5 +121,4 @@ This project was inspired by the research paper [Deep Reinforcement Learning for
 **MIT License © 2025**
 
 ---
-
 Would you like me to also **add sample Python code (train_agent.py + evaluate_agent.py)** so the README links directly to working code for AAPL, JPM, KO?
