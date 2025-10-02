@@ -67,5 +67,60 @@ This project explores the use of Deep Reinforcement Learning (DRL) to develop an
 - `yfinance` – Stock price data  
 - `gymnasium` – RL Environments  
 
+2. **Clone the Repository**:
+    - Clone the GitHub repository and navigate to the project directory.
+    ### 1. Clone Repository
+```bash
+git clone 
+cd stock-drl
+
+## Steps to Run the Project
+1. **Prepare the Stock Data**:
+    - Ensure your stock data is in a suitable format (e.g., CSV files).
+    - Load the data into the environment.
+
+2. **Define the Trading Environment**:
+    - Create a custom trading environment (`StockTradingEnv`) that includes transaction costs.
+    - Define the observation and action spaces for the environment.
+
+3. **Implement DRL Agents**:
+    - Implement various DRL agents using algorithms such as PPO, A2C, DDPG, SAC, TD3.
+    - Train the agents on the custom trading environment.
+
+4. **Evaluate the Agents**:
+    - Calculate daily returns, standard deviation, and Sharpe ratio for each agent.
+    - Compare the performance of the agents based on these metrics.
+
+5. **Plot the Results**:
+    - Visualize the performance metrics using bar charts.
+    - Highlight the best-performing agents based on the Sharpe ratio.
+
+## Results
+- **DDPG Agent** showed the highest return and Sharpe ratio, despite higher volatility.
+- **TD3 Agent** and **Ensemble Agent** also performed well, balancing return and risk.
+- **PPO Agent** underperformed, indicating the need for further optimization.
+##📊 Output
+
+Portfolio value growth over time
+
+Cumulative rewards vs baseline (Buy & Hold)
+
+Trading decisions (Buy/Sell points on chart)
+## Key Takeaways
+- Advanced DRL algorithms like DDPG and TD3 can significantly enhance trading strategies.
+- Including transaction costs makes simulations more realistic.
+- Continuous improvement and testing are essential for refining these models.
+
+## Research Paper
+This project was inspired by the research paper [Deep Reinforcement Learning for AutomatedStock Trading: An Ensemble Strategy ](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3690996). The paper provides a comprehensive overview of using DRL in financial markets and guided the development of the agents and environment in this project.
+
+
+
+##📜 License
+
+**MIT License © 2025**
+
+---
+Would you like me to also **add sample Python code (train_agent.py + evaluate_agent.py)** so the README links directly to working code for AAPL, JPM, KO?
 
 
