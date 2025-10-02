@@ -67,10 +67,5 @@ This project explores the use of Deep Reinforcement Learning (DRL) to develop an
 - `yfinance` – Stock price data  
 - `gymnasium` – RL Environments  
 
-2. **Clone the Repository**:
-    - Clone the GitHub repository and navigate to the project directory.
-    ### 1. Clone Repository
-```bash
-git clone https://github.com/yourusername/stock-drl.git
-cd stock-drl
+
 
