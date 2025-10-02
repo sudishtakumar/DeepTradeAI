@@ -71,5 +71,5 @@ This project explores the use of Deep Reinforcement Learning (DRL) to develop an
     - Clone the GitHub repository and navigate to the project directory.
     ### 1. Clone Repository
 ```bash
-
+gh repo clone sudishtakumar/DeepTradeAI
 
