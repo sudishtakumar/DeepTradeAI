@@ -174,9 +174,6 @@ This project was inspired by the research paper [Deep Reinforcement Learning for
 
 
 
-##📜 License
-
-**MIT License © 2025**
 
 ---
 Would you like me to also **add sample Python code (train_agent.py + evaluate_agent.py)** so the README links directly to working code for AAPL, JPM, KO?
